@@ -1,0 +1,81 @@
+/************* following style rules *************/
+/************* Berking Da Quan *************/
+/************* 28/3/2020 - 21:26' **************/
+/******* start of admin page style *******/
+
+.dashboard {
+    width: 90%;
+    text-align: center;
+    margin: 1rem auto -2rem;
+}
+
+.song__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content__table {
+    position: relative;
+}
+
+.table__element {
+    font-size: 1.2rem;
+    font-weight: 200;
+    font-family: 'lato', sans-serif;
+}
+
+td {
+    padding: .3rem 3rem;
+    text-transform: capitalize;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+tr {
+    text-align: center;
+}
+
+.action__btn {
+    text-decoration: underline;
+    padding: 0 1rem;
+}
+
+.action {
+
+}
+
+.admin_action_panel {
+    color: #554024;
+    border-radius: 5px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin_action_panel ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.admin_action_panel ul li a {
+    margin: 0 1rem;
+    border: 1px #554024 solid;
+    padding: .4rem 1rem;
+    border-radius: 5px;
+}
+
+.song_link {
+    width: 95%;
+    margin: 1rem auto;
+    height: 50%;
+}
+
+iframe {
+    height: 50%;
+    width: 100%;
+}
+
+/******* end of admin page style ******/
