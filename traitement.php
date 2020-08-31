@@ -11,7 +11,7 @@ if ($_GET['action'] == "login") {
             'password' => $_POST['password']
         ));
         $response = $data->fetch();
-        if ($_POST['username']) {
+        if ( in_array($_POST['username'], $response)) {
             if ($_POST['password']) {
                 if ($response) {
                     session_start();
@@ -38,15 +38,16 @@ else if ($_GET['action'] == "logout") {
 
 else if ($_GET['action'] == "insert") {
     require_once "basis.php";
-    $insert_query = 'INSERT INTO `lyrics`(`id`, `artist`, `lyrics`, `time_of_upload`, `link`, `uploader`, `genre`, `song_name`) 
-                        VALUES (:id, :artist, :lyrics, CURRENT_TIME , :link, :uploader, :genre, :song_name)';
+    $insert_query = "insert into lyrics values (:id, :song_name, :artist, :lyrics, :genre, now(), :likes, :views, :link)";
+
     $res = $dbconnection->prepare($insert_query);
     $res->execute(array(
         'id' => 0,
+        'likes' => 0,
+        'views' => 0,
         'artist' => $_POST['artist'],
         'lyrics' => $_POST['lyrics'],
         'link' => $_POST['link'],
-        'uploader' => $_POST['uploader'],
         'genre' => $_POST['genre'],
         'song_name' => $_POST['song_name']
     ));

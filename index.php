@@ -1,6 +1,6 @@
 <?php
 require_once "basis.php";
-$query = 'SELECT * FROM lyrics ORDER BY time_of_upload DESC';
+$query = 'SELECT * FROM lyrics';
 $data = $dbconnection->query($query);
 ?>
 <?php require 'header.php' ?>
@@ -39,14 +39,6 @@ $data = $dbconnection->query($query);
         <?php
     }$data->closeCursor();
     ?>
-    <div class="paggination">
-        <div class="button">
-            <button class="direction__btn" id="prev"><span class="btn__paggination"><a href="#" class="links">prev</a></span></button>
-            <p class="paggination__number"><a class="number_of_present_page" href="#">2</a></p>
-            <button class="direction__btn" id="next"><span class="btn__paggination"><a href="#" class="links">next</a></button>
-        </div>
-    </div>
-
 </div>
 
 <?php require 'footer.php' ?>

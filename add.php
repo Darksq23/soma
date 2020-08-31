@@ -28,12 +28,6 @@ require "basis.php";
             </div>
 
             <div class="form_input_box">
-                <label> uploader :
-                    <input type="text" name="uploader" maxlength="150">
-                </label>
-            </div>
-
-            <div class="form_input_box">
                 <label> song name :
                     <input type="text" name="song_name" maxlength="150">
                 </label>
@@ -44,7 +38,6 @@ require "basis.php";
                     <option value="POP">POP</option>
                     <option value="RNB">RNB</option>
                     <option value="HIP HOP">HIP HOP</option>
-                    <option value="RAP">RAP</option>
                 </select>
             </div>
             <input type="submit" value="Post Lyric" class="btn box">
