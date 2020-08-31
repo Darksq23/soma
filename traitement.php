@@ -61,9 +61,15 @@ else if ($_GET['action'] == "insert") {
 }
 
 else if ($_GET['action'] == "edit") {
-
+    
 }
 
 else if ($_GET['action'] == "delete") {
-
+    require_once "basis.php";
+    $query = 'delete from lyrics WHERE id= :id';
+    $data = $dbconnection->prepare($query);
+    $data->execute([
+        'id' => $_GET['id']
+    ]);
+    header('Location: admin_page.php');
 }

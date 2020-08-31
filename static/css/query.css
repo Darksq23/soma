@@ -1,3 +1,6 @@
 @media (max-width : 900px) {
-
+    .song_link {
+        width: 300px;
+        height: 200px;
+    }
 }

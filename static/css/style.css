@@ -21,7 +21,7 @@
 
 .table__element {
     font-size: 1.2rem;
-    font-weight: 200;
+    font-weight: 400;
     font-family: 'lato', sans-serif;
 }
 
@@ -68,13 +68,18 @@ tr {
 }
 
 .song_link {
+    max-width: 560px;
     width: 95%;
     margin: 1rem auto;
-    height: 50%;
+    height: 315px;
+}
+
+a.ytp-title-channel-logo {
+    display: none;
 }
 
 iframe {
-    height: 50%;
+    height: 100%;
     width: 100%;
 }
 

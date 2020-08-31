@@ -45,7 +45,7 @@ require "basis.php";
                             <td class="table__element"><?php echo $data['genre']; ?></td>
                             <td class="table__element"><a href="traitement.php?action=edit" id="edit" class="links action__btn">Edit</a>
                             </td>
-                            <td class="table__element"><a href="admin_page.php?id=<?php echo $data['id']; ?>" id="delete" class="links action__btn">Delete</a>
+                            <td class="table__element"><a href="traitement.php?action=delete&id=<?php echo $data['id']; ?>" id="edit" class="links action__btn">Delete</a>
                             </td>
                         </tr>
                     </table>

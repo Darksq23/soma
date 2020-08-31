@@ -152,6 +152,8 @@ img {
 /**** start of the article style ****/
 .container {
     color: #554024;
+    width: 95%;
+    margin: 0 auto;
 }
 
 .hiden {

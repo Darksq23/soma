@@ -1,4 +1,4 @@
-
+    </div>
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="static/js/app.js"></script>
     <div class="footer">
@@ -17,9 +17,8 @@
                 </ul>
         </div>
         <div class="copyright">
-            <p class="copy">Copyright Soma, Inc 2020 all right reserved</p>
+            <p class="copy">Copyright Somaword, Inc 2020 all right reserved</p>
         </div>
     </div>
-</div>
 </body>
 </html>

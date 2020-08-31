@@ -16,7 +16,6 @@
     <script src="https://use.fontawesome.com/d42acbc4b7.js"></script>
 </head>
 <body>
-    <div class="container">
     <div class="headbox">
         <div class="logo_box">
             <div class="logo"><a href="index.php">SOMa<span>word</span></a></div>
@@ -31,3 +30,5 @@
             </ul>
         </div>
     </div>
+    <div class="container">
+    

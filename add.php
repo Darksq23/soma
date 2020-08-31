@@ -23,7 +23,7 @@ require "basis.php";
 
             <div class="form_input_box">
                 <label>link of the song :
-                    <input type="text" name="link" maxlength="100" required>
+                    <input type="text" name="link" required>
                 </label>
             </div>
 
