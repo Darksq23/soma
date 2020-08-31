@@ -17,7 +17,7 @@
                 </ul>
         </div>
         <div class="copyright">
-            <p class="copy">Copyright Somaword, Inc 2020 all right reserved</p>
+            <p class="copy">Copyright Somaword, Inc 2020 all right reserved | web design by Berking Da Quan</p>
         </div>
     </div>
 </body>

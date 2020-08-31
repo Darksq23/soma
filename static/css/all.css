@@ -231,6 +231,7 @@ h1 {
     color: #554024;
     text-align: center;
     font-weight: bold;
+    display: block;
     text-transform: capitalize;
 }
 

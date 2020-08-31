@@ -21,14 +21,14 @@
             <div class="logo"><a href="index.php">SOMa<span>word</span></a></div>
             <img src="static/images/eye.png" class="logo-img" alt="logo-img">
         </div>
-        
+        <?php /*echo "
         <div class="nav-link">
             <ul class="nav__link__ul">
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About Us</a></li>
                 <li><a href="admin_page.php">Admin</a></li>
             </ul>
-        </div>
+        </div> "*/ ?>
     </div>
     <div class="container">
     
