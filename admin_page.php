@@ -24,6 +24,7 @@ require "basis.php";
         </div>
 
         <div class="dashboard" id="hide">
+          <h2>welcome, <?php echo $_SESSION['username']; ?></h2>
 
             <div class="admin_action_panel">
                 <ul>
@@ -41,7 +42,6 @@ require "basis.php";
                         <tr class="__row">
                             <td class="table__element"><?php echo $data['song_name']; ?></td>
                             <td class="table__element"><?php echo $data['artist']; ?></td>
-                            <td class="table__element"><?php echo $data['uploader']; ?></td>
                             <td class="table__element"><?php echo $data['genre']; ?></td>
                             <td class="table__element"><a href="traitement.php?action=edit" id="edit" class="links action__btn">Edit</a>
                             </td>

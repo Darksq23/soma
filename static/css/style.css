@@ -20,9 +20,17 @@
 }
 
 .table__element {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
     font-family: 'lato', sans-serif;
+}
+
+.__row:hover {
+  background-color: gray;
+}
+
+.__row:hover .table__element {
+  color: #fff;
 }
 
 td {

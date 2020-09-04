@@ -11,7 +11,9 @@ $data = $dbconnection->query($query);
     <?php while($res = $data->fetch()) { ?>
         <div class="card_box">
             <div class="card__header">
-                <h3 class="song__name">Title : <?php echo $res['song_name']; ?></h3>
+                <h3 class="song__name">Title :
+                  <a href="lyrics.php?song_name=<?php echo $res['song_name']; ?>" id="read__more__button" class="s_link"><?php echo $res['song_name']; ?></a>
+                </h3>
                 <p class="song__artist">Artist : <?php echo $res['artist']; ?></p>
             </div>
             <div class="part__lyrics">

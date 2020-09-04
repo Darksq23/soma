@@ -1,1 +1,1 @@
-alert($_SESSION['username']);
+alert($_SESSION['username'])

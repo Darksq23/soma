@@ -17,7 +17,7 @@
                 </ul>
         </div>
         <div class="copyright">
-            <p class="copy">Copyright Somaword, Inc 2020 all right reserved | web design by Berking Da Quan</p>
+            <p class="copy">Copyright Somaword, Inc 2020 all right reserved | Developed by Berking Da Quan & Buntu Benny David</p>
         </div>
     </div>
 </body>
