@@ -32,7 +32,7 @@ while($res = $data->fetch()) { ?>
     <div class="song_link">
         <?php echo $res['link']; ?>
     </div>
-        <?php 
+        <?php
             $suggestion->execute(array(
                     'artist' => $res['artist'],
                     'uploader' => $res['uploader']
