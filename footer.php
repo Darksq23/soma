@@ -17,7 +17,7 @@
                 </ul>
         </div>
         <div class="copyright">
-            <p class="copy">Copyright Somaword, Inc 2020 all right reserved | created by Berking Da Quan & lyrics by Buntu Benny David</p>
+            <p class="copy">Copyright Somaword, Inc 2020-<?php echo date("Y"); ?> all right reserved | created by Berking Da Quan</p>
         </div>
     </div>
 </body>
